@@ -1,0 +1,221 @@
+{
+  "status": "LAWFUL_CPLUS_BINARY_SPLITTER_REALIZATION_PASS",
+  "certificate_type": "finite_contact_refinement_realization_not_dynamic_create",
+  "runtime_inputs_allowed": [
+    "frozen cplus_contacts coordinates only"
+  ],
+  "runtime_inputs_forbidden": [
+    "endpoint_id",
+    "block_id",
+    "metadata",
+    "d_Q",
+    "graph coloring label"
+  ],
+  "tau": 1.035319346634406,
+  "arrays_sha256": "801bf1332df3fc6de2f77de03ebaa814e10e71696bc1f19b1a8a6693cea357ad",
+  "normalizer_sha256": "06c5d2ffc5d0a5873a4b1879a7532b3edc3d51a7b22440176cbff0abe348da14",
+  "contract_sha256": "f7699d0e58b489128365eb4aa76b81495d0ebc28143d8a82902d6f4bcab5f600",
+  "fourpart_graph_sha256": "a5d524783c082f2228ba1464c805e1ac42c97b0c65ea54759150701cdb01b414",
+  "full_cell_graph_sha256": "aea6d37518558fa667b9575752479bbdc20448c7baa176503efd6e8c131f8184",
+  "fourpart_1099_splitter": {
+    "features": [
+      0,
+      6,
+      7,
+      99,
+      128
+    ],
+    "depth": 6,
+    "tree": [
+      "node",
+      128,
+      -0.8366104364395142,
+      [
+        "node",
+        7,
+        -0.12538572400808334,
+        [
+          "leaf",
+          0
+        ],
+        [
+          "leaf",
+          1
+        ]
+      ],
+      [
+        "node",
+        0,
+        0.05874338746070862,
+        [
+          "node",
+          99,
+          -1.2131552696228027,
+          [
+            "leaf",
+            1
+          ],
+          [
+            "node",
+            0,
+            -0.5450520813465118,
+            [
+              "node",
+              0,
+              -0.761202335357666,
+              [
+                "node",
+                6,
+                0.8766142129898071,
+                [
+                  "leaf",
+                  0
+                ],
+                [
+                  "leaf",
+                  1
+                ]
+              ],
+              [
+                "leaf",
+                0
+              ]
+            ],
+            [
+              "leaf",
+              0
+            ]
+          ]
+        ],
+        [
+          "leaf",
+          0
+        ]
+      ]
+    ],
+    "verification": {
+      "graph": "/workspace/kolmogorov_creation/a4_contact_only_unseen_audit_four_part_diagnostic/UNSEEN_CPLUS_CONTACT_EDGES.csv",
+      "same_cell_only": false,
+      "node_count": 219,
+      "edge_count": 1099,
+      "original_obstructions": 85,
+      "retained_same_subcell_edges": 762,
+      "post_split_obstructions": 0,
+      "worst_retained_dQ": 1.0040470361709595,
+      "pass": true,
+      "color_sizes": {
+        "0": 199,
+        "1": 20
+      }
+    }
+  },
+  "full_cell_1509_splitter": {
+    "features": [
+      0,
+      1,
+      10,
+      27,
+      49,
+      60,
+      106
+    ],
+    "depth": 5,
+    "tree": [
+      "node",
+      106,
+      1.160978078842163,
+      [
+        "node",
+        49,
+        -0.9805869460105896,
+        [
+          "node",
+          10,
+          -0.9465833008289337,
+          [
+            "leaf",
+            0
+          ],
+          [
+            "leaf",
+            1
+          ]
+        ],
+        [
+          "node",
+          0,
+          -0.048747343942523,
+          [
+            "node",
+            1,
+            -1.45675528049469,
+            [
+              "leaf",
+              1
+            ],
+            [
+              "node",
+              60,
+              1.3249221444129944,
+              [
+                "leaf",
+                0
+              ],
+              [
+                "leaf",
+                1
+              ]
+            ]
+          ],
+          [
+            "node",
+            0,
+            0.3793182075023651,
+            [
+              "node",
+              27,
+              -2.172544002532959,
+              [
+                "leaf",
+                1
+              ],
+              [
+                "leaf",
+                0
+              ]
+            ],
+            [
+              "leaf",
+              0
+            ]
+          ]
+        ]
+      ],
+      [
+        "leaf",
+        1
+      ]
+    ],
+    "verification": {
+      "graph": "/workspace/kolmogorov_creation/a4_cplus_fourier_vorticity_full_audit/A4_CPLUS_CONTACT_EDGES.csv",
+      "same_cell_only": true,
+      "node_count": 384,
+      "edge_count": 1437,
+      "original_obstructions": 110,
+      "retained_same_subcell_edges": 1261,
+      "post_split_obstructions": 0,
+      "worst_retained_dQ": 1.0347025394439697,
+      "pass": true,
+      "color_sizes": {
+        "0": 357,
+        "1": 27
+      }
+    }
+  },
+  "final_gate": {
+    "contact_repair_realized": true,
+    "dynamic_action_create_validated": false,
+    "v5_create_certificate": false,
+    "reason_not_create": "The split is now realized as a lawful finite-contact refinement, but no action has been shown to dynamically create this refinement or to pass half-dt/perturbation/nontrivial-dynamics gates."
+  }
+}

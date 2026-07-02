@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Finite Consequence Formation Static Hidden-Twin Load-Repair Reproducibility Package"
+version: "2026.07.02"
+date-released: "2026-07-02"
+message: "If you use this package, cite the finite consequence formation static flagship reproducibility package."
+authors:
+  - family-names: "Anonymous"
+    given-names: "FCF"

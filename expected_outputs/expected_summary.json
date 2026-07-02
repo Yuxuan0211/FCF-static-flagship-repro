@@ -1,0 +1,9 @@
+{
+  "universe_A_original_obstructions": "85/1099",
+  "universe_A_repaired_obstructions": 0,
+  "universe_B_original_obstructions": "110/1437",
+  "universe_B_repaired_obstructions": 0,
+  "forced_answer_failures": 6,
+  "nuisance_split_trials": 512,
+  "nuisance_split_zero_successes": 0
+}

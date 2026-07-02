@@ -1,0 +1,116 @@
+{
+  "status": "FINITE_CONTACT_PRIMITIVE_CREATE_COMPLETE__DYNAMIC_CREATE_NOT_VALIDATED",
+  "tau": 1.035319346634406,
+  "final_claims": {
+    "contact_primitive_creation": true,
+    "dynamic_action_creation": false,
+    "stable_dynamic_create_certificate": false
+  },
+  "c_create": {
+    "name": "finite-contact primitive creation / contact distinction creation",
+    "formal_transition": "V(C_plus,Q)=0 -> V((C_plus, splitter(C_plus)),Q)=1",
+    "gate_pass": true,
+    "gates": {
+      "baseline_no_release_fourpart": true,
+      "baseline_no_release_full_cell": true,
+      "lawful_primitive_runtime_inputs": true,
+      "center_transition_fourpart": true,
+      "center_transition_full_cell": true,
+      "post_split_zero_obstruction_fourpart": true,
+      "post_split_zero_obstruction_full_cell": true,
+      "worst_retained_under_tau_fourpart": true,
+      "worst_retained_under_tau_full_cell": true,
+      "unseen_refined_split_certificate": true,
+      "formal_verification": true,
+      "hash_checks": true
+    },
+    "fourpart_1099": {
+      "before_obstructions": 85,
+      "before_worst_dQ": 1.2197532653808594,
+      "after_post_split_obstructions": 0,
+      "after_worst_retained_dQ": 1.0040470361709595,
+      "retained_same_subcell_edges": 762
+    },
+    "full_cell_same_cell": {
+      "before_obstructions": 110,
+      "before_worst_dQ": 2.0398457050323486,
+      "after_post_split_obstructions": 0,
+      "after_worst_retained_dQ": 1.0347025394439697,
+      "retained_same_subcell_edges": 1261
+    },
+    "legality": {
+      "allowed_runtime_inputs": [
+        "frozen cplus_contacts coordinates only"
+      ],
+      "forbidden_runtime_inputs": [
+        "endpoint_id",
+        "block_id",
+        "metadata",
+        "d_Q",
+        "graph coloring label"
+      ],
+      "fourpart_splitter_depth": 6,
+      "fourpart_splitter_features": [
+        0,
+        6,
+        7,
+        99,
+        128
+      ],
+      "full_cell_splitter_depth": 5,
+      "full_cell_splitter_features": [
+        0,
+        1,
+        10,
+        27,
+        49,
+        60,
+        106
+      ]
+    },
+    "minimality": {
+      "fourpart_max_minimum_split_count": 2,
+      "full_cell_max_minimum_split_count": 2,
+      "verification_status": "PASS"
+    }
+  },
+  "d_create": {
+    "name": "dynamic action creation / regime creation",
+    "required_transition": "V(C_pre,Q0)=0 -> V(C_pre,Qa)=1 with C_pre fixed",
+    "gate_pass": false,
+    "gates": {
+      "frozen_before_validation": true,
+      "action_is_open_loop": true,
+      "final_validation_64_pass": false,
+      "controlled_64_of_64": false,
+      "controlled_max_dq_under_tau": false,
+      "controlled_improves_merged_count": false
+    },
+    "status": "DYNAMIC_ACTION_CREATE_FAILED_FINAL_VALIDATION_64",
+    "final_validation_64": {
+      "pairs": 64,
+      "uncontrolled_merged": 55,
+      "uncontrolled_max_dQ": 1.2527889192395845,
+      "controlled_merged": 47,
+      "controlled_max_dQ": 6.776984350849867,
+      "merged_gain": -8,
+      "final_validation_pass": false
+    },
+    "action_closure_matrix": {
+      "pairs": 271,
+      "actions": 13,
+      "union_closed_pairs": 260,
+      "universally_unclosed_pairs": 11
+    },
+    "boundary": "The frozen action does not close all validation pairs and worsens merged count; therefore no dynamic CREATE or V5 certificate can be claimed from this action chain."
+  },
+  "source_hashes": {
+    "cplus_binary_split_release_transition_proof/CPLUS_BINARY_SPLIT_RELEASE_TRANSITION_PROOF.json": "5a2a43ce391039c8542510903b06c195ce3adefeaf96860bcb8ef113987140bd",
+    "lawful_cplus_binary_splitter_certificate/LAWFUL_CPLUS_BINARY_SPLITTER_SUMMARY.json": "3127b1d690c3fd884e26ec5f99bb0875a642a92db98da4144425349689acb8aa",
+    "unseen_refined_contact_split_certificate/UNSEEN_REFINED_CONTACT_SPLIT_CERTIFICATE_SUMMARY.json": "cd4570b864d23b0ad1996ef9dfdb435a52a9fc99c3bd0748b137ef13be100268",
+    "unseen_refined_contact_split_certificate/verification/VERIFICATION_SUMMARY.json": "e6f4baf1c9e68a066406217a362b45bdc5619d6094550bdab3b4e6bec4ff2a7b",
+    "final_validation_64/FINAL_VALIDATION_SUMMARY.json": "c814b1a88025502dea05998ba1adb2e400de94fe628e5cfad2d28c8cf74faba3",
+    "frozen_final_action/FINAL_ACTION_FREEZE.json": "4dd9b624196405c52fd368e124587cd4d0e9633269356c709ff4cc2e4b72a69e",
+    "delayed_action_closure_matrix/ACTION_CLOSURE_SUMMARY.json": "50a7d30bc53f99efad4ce543e37b87f90bc6d158c163dbf94b2b74cef0068b98"
+  }
+}

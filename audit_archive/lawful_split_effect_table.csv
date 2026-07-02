@@ -1,0 +1,3 @@
+name,edge_count,obstruction_count,worst_dq,retained_after_split,post_split_obstructions,worst_retained_dq
+fourpart_1099,1099,85,1.2197532653808592,762,0,1.0040470361709595
+full_cell_same_cell_1437,1437,110,2.0398457050323486,1261,0,1.0347025394439695

@@ -1,0 +1,359 @@
+{
+  "status": "CELL2_PAIR_ORACLE_PASS_BUT_SINGLE_CONTACT_ACTION_UNSAT",
+  "matrix_sha256": "6b8868028c92909264f7edbf5f1b1494dd6d735e53fb57f9d55af6f0a5155c3c",
+  "quantizer_sha256": "7d62462051c3b6823e8d0bb17f2df690af625c78607b750a6b43e2ee4b1eb6e4",
+  "target_cell": 2,
+  "tau": 1.035319346634406,
+  "pair_count": 32,
+  "action_count": 26,
+  "single_contact_action": {
+    "feasible": false,
+    "passing_actions": [],
+    "best_action": "SP59_K1_2_P3pi4_S+1",
+    "best_max_dQ": 2.8118224324826415,
+    "best_margin_to_tau": 1.7765030858482356,
+    "best_closed_pairs": 18
+  },
+  "pair_specific_oracle": {
+    "feasible": true,
+    "closed_pairs": 32,
+    "pair_count": 32,
+    "max_best_pair_dQ": 0.8782478409212605,
+    "max_best_pair_margin_to_tau": -0.15707150571314543,
+    "legal_as_finite_contact_policy": false,
+    "reason": "All audited pairs are in the same frozen contact cell, so a finite-contact policy must assign one action to the cell, not one action per hidden pair."
+  },
+  "hardest_pair_oracle_rows": [
+    {
+      "hard_rank": 1,
+      "pair_index": 38,
+      "endpoint_i": 3169,
+      "endpoint_j": 3670,
+      "best_action": "SP59_K1_1_Ppi4_S+1",
+      "best_dQ": 0.8782478409212605,
+      "best_margin_to_tau": -0.15707150571314543,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 2,
+      "pair_index": 42,
+      "endpoint_i": 3168,
+      "endpoint_j": 3671,
+      "best_action": "SP59_K1_1_Ppi4_S+1",
+      "best_dQ": 0.864441129131152,
+      "best_margin_to_tau": -0.17087821750325394,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 3,
+      "pair_index": 47,
+      "endpoint_i": 3167,
+      "endpoint_j": 3672,
+      "best_action": "P02",
+      "best_dQ": 0.7985276034730624,
+      "best_margin_to_tau": -0.23679174316134355,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 4,
+      "pair_index": 24,
+      "endpoint_i": 3174,
+      "endpoint_j": 3531,
+      "best_action": "SP59_K2_3_Ppi4_S+1",
+      "best_dQ": 0.6977129591820518,
+      "best_margin_to_tau": -0.33760638745235416,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 5,
+      "pair_index": 60,
+      "endpoint_i": 3164,
+      "endpoint_j": 3669,
+      "best_action": "P02",
+      "best_dQ": 0.666044614751388,
+      "best_margin_to_tau": -0.36927473188301796,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 6,
+      "pair_index": 23,
+      "endpoint_i": 3175,
+      "endpoint_j": 3528,
+      "best_action": "SP59_K1_1_P3pi4_S+1",
+      "best_dQ": 0.6592315544448588,
+      "best_margin_to_tau": -0.37608779218954713,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 7,
+      "pair_index": 51,
+      "endpoint_i": 3166,
+      "endpoint_j": 3644,
+      "best_action": "SP59_K1_1_Ppi4_S+1",
+      "best_dQ": 0.6212111366664653,
+      "best_margin_to_tau": -0.4141082099679406,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 8,
+      "pair_index": 36,
+      "endpoint_i": 3170,
+      "endpoint_j": 3667,
+      "best_action": "MABA_T10p5_14p5",
+      "best_dQ": 0.5702072443452538,
+      "best_margin_to_tau": -0.4651121022891521,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 9,
+      "pair_index": 59,
+      "endpoint_i": 3163,
+      "endpoint_j": 3649,
+      "best_action": "SP59_K3_3_P0_S+1",
+      "best_dQ": 0.5231773836644038,
+      "best_margin_to_tau": -0.5121419629700021,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 10,
+      "pair_index": 53,
+      "endpoint_i": 3165,
+      "endpoint_j": 3645,
+      "best_action": "SP59_K2_2_Ppi4_S-1",
+      "best_dQ": 0.5026943942585239,
+      "best_margin_to_tau": -0.532624952375882,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 11,
+      "pair_index": 56,
+      "endpoint_i": 3162,
+      "endpoint_j": 3647,
+      "best_action": "SP59_K2_2_Ppi4_S-1",
+      "best_dQ": 0.4779636184730728,
+      "best_margin_to_tau": -0.5573557281613332,
+      "oracle_closed": true
+    },
+    {
+      "hard_rank": 12,
+      "pair_index": 54,
+      "endpoint_i": 3161,
+      "endpoint_j": 3646,
+      "best_action": "SP59_K1_1_Ppi4_S+1",
+      "best_dQ": 0.4092369954146822,
+      "best_margin_to_tau": -0.6260823512197238,
+      "oracle_closed": true
+    }
+  ],
+  "actions_by_single_cell_max": [
+    {
+      "action": "SP59_K1_2_P3pi4_S+1",
+      "max_dQ": 2.8118224324826415,
+      "margin_to_tau": 1.7765030858482356,
+      "closed_pairs": 18,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "P03",
+      "max_dQ": 3.0230734537054156,
+      "margin_to_tau": 1.9877541070710096,
+      "closed_pairs": 17,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "B02",
+      "max_dQ": 3.22754250904207,
+      "margin_to_tau": 2.192223162407664,
+      "closed_pairs": 15,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "B01",
+      "max_dQ": 3.3774134225158092,
+      "margin_to_tau": 2.3420940758814033,
+      "closed_pairs": 1,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "P02",
+      "max_dQ": 3.6271702107708927,
+      "margin_to_tau": 2.591850864136487,
+      "closed_pairs": 20,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "SP59_K4_4_Ppi4_S+1",
+      "max_dQ": 4.229428277785436,
+      "margin_to_tau": 3.19410893115103,
+      "closed_pairs": 19,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "B03",
+      "max_dQ": 4.259473508464055,
+      "margin_to_tau": 3.2241541618296488,
+      "closed_pairs": 0,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "M03",
+      "max_dQ": 4.350269496095522,
+      "margin_to_tau": 3.314950149461116,
+      "closed_pairs": 14,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "P01",
+      "max_dQ": 4.46892820779988,
+      "margin_to_tau": 3.4336088611654745,
+      "closed_pairs": 16,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "SP59_K3_3_P0_S+1",
+      "max_dQ": 4.609376501285437,
+      "margin_to_tau": 3.5740571546510314,
+      "closed_pairs": 23,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "R02",
+      "max_dQ": 4.7389199412338,
+      "margin_to_tau": 3.7036005945993944,
+      "closed_pairs": 4,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "M01",
+      "max_dQ": 4.776621089351068,
+      "margin_to_tau": 3.7413017427166624,
+      "closed_pairs": 10,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "MABA_T10p5_15p5",
+      "max_dQ": 4.859514508124784,
+      "margin_to_tau": 3.824195161490378,
+      "closed_pairs": 6,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "M04",
+      "max_dQ": 4.877010481261198,
+      "margin_to_tau": 3.8416911346267923,
+      "closed_pairs": 2,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "M02",
+      "max_dQ": 4.917465795927104,
+      "margin_to_tau": 3.882146449292698,
+      "closed_pairs": 14,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "SP59_K3_6_Ppi2_S-1",
+      "max_dQ": 4.990245207511939,
+      "margin_to_tau": 3.954925860877533,
+      "closed_pairs": 2,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "R01",
+      "max_dQ": 5.072592891613267,
+      "margin_to_tau": 4.037273544978861,
+      "closed_pairs": 17,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "MABA_T10p5_14p5",
+      "max_dQ": 5.0959913971279285,
+      "margin_to_tau": 4.0606720504935225,
+      "closed_pairs": 5,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "L01",
+      "max_dQ": 5.111250162309168,
+      "margin_to_tau": 4.075930815674762,
+      "closed_pairs": 6,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "SP59_K2_1_Ppi2_S+1",
+      "max_dQ": 5.364362777373723,
+      "margin_to_tau": 4.329043430739317,
+      "closed_pairs": 13,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "SP59_K1_1_P3pi4_S+1",
+      "max_dQ": 5.485531419203107,
+      "margin_to_tau": 4.450212072568701,
+      "closed_pairs": 7,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "SP59_K1_1_Ppi4_S+1",
+      "max_dQ": 5.605490289544553,
+      "margin_to_tau": 4.570170942910147,
+      "closed_pairs": 11,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "MABA_T10p5_15",
+      "max_dQ": 5.767050926865811,
+      "margin_to_tau": 4.731731580231405,
+      "closed_pairs": 6,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "SP59_K2_2_Ppi4_S-1",
+      "max_dQ": 5.88926835377504,
+      "margin_to_tau": 4.853949007140634,
+      "closed_pairs": 24,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "SP59_K2_3_Ppi4_S+1",
+      "max_dQ": 6.916428989333948,
+      "margin_to_tau": 5.881109642699542,
+      "closed_pairs": 21,
+      "pair_count": 32,
+      "single_action_pass": false
+    },
+    {
+      "action": "SP59_K2_4_Ppi4_S-1",
+      "max_dQ": 8.113092840626404,
+      "margin_to_tau": 7.077773493991998,
+      "closed_pairs": 18,
+      "pair_count": 32,
+      "single_action_pass": false
+    }
+  ],
+  "interpretation": "The extended action matrix contains local actions that close every cell-2 pair individually, but the library has no single action that closes the entire frozen contact cell. A strict win therefore needs either a new action whose response approximates the pair-oracle assignment at the cell level, or a protocol upgrade allowing lawful online finite-contact feedback that splits the cell after observing post-action contact. Pair-specific assignment itself is not a valid certificate."
+}

@@ -1,0 +1,7 @@
+system_id,input_contact_state,answer,true_target_consequence,pass_fail,failure_reason,model_unstable_edges_over_tau,endpoint_error_max,endpoint_error_median
+GLOBAL_MEAN_FORCED_QBAR,C or C+ frozen coordinates only,forced consequence response estimate,Q_labels on Universe A audited endpoints,FAIL,stable_but_not_true_to_Q,0,0.9692957868642598,0.27230275900134104
+CONTACT_COMPONENT_MEAN_QBAR,C or C+ frozen coordinates only,forced consequence response estimate,Q_labels on Universe A audited endpoints,FAIL,stable_but_not_true_to_Q,0,0.7999732494978865,0.25953247177263816
+ONE_NEAREST_NEIGHBOR_MEMORIZER,C or C+ frozen coordinates only,forced consequence response estimate,Q_labels on Universe A audited endpoints,FAIL,unstable_on_contact_edges,85,0.0,0.0
+RIDGE_ON_C_ONLY,C or C+ frozen coordinates only,forced consequence response estimate,Q_labels on Universe A audited endpoints,FAIL,stable_but_not_true_to_Q,0,0.9811658822448731,0.40806918104838097
+RIDGE_ON_CPLUS_NO_SPLITTER,C or C+ frozen coordinates only,forced consequence response estimate,Q_labels on Universe A audited endpoints,FAIL,stable_but_not_true_to_Q,0,1.0897554448106914,0.44977363714604873
+RIDGE_ON_C_PLUS_512_RANDOM_NUISANCE_FEATURES,C or C+ frozen coordinates only,forced consequence response estimate,Q_labels on Universe A audited endpoints,FAIL,unstable_on_contact_edges,2,1.26005337562757,0.47345479963022524
